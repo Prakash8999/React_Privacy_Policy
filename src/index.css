@@ -90,10 +90,10 @@ li {
 
 .dashboard-main {
   width: 100%;
-  max-width: 900px;
+  max-width: 1080px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
   animation: fadeInUp 0.8s ease-out;
 }
 
@@ -102,8 +102,8 @@ li {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--glass-border);
-  border-radius: 24px;
-  padding: 2rem;
+  border-radius: 20px;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -118,14 +118,15 @@ li {
 }
 
 .card h2 {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   margin-bottom: 0.5rem;
 }
 
 .card p {
   color: var(--text-secondary);
-  margin-bottom: 1.5rem;
-  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
   flex-grow: 1;
 }
 
@@ -133,10 +134,10 @@ li {
   display: inline-block;
   background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
   color: white;
-  padding: 0.75rem 1.5rem;
+  padding: 0.65rem 1.25rem;
   border-radius: 9999px;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.95rem;
   box-shadow: 0 10px 15px -3px rgba(217, 119, 6, 0.2);
   transition: all 0.3s ease;
   margin-top: auto;
@@ -272,12 +273,23 @@ li {
 }
 
 /* Responsive */
+@media (max-width: 900px) {
+  .dashboard-main {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.25rem;
+  }
+}
+
 @media (max-width: 768px) {
   .dashboard-header h1 {
-    font-size: 3rem;
+    font-size: 2.75rem;
   }
   
-  .card, .privacy-content {
+  .card {
+    padding: 1.5rem;
+  }
+
+  .privacy-content {
     padding: 2rem;
   }
   

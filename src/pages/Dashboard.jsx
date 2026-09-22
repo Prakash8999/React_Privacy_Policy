@@ -29,6 +29,16 @@ const Dashboard = () => {
             View Privacy Policy
           </Link>
         </div>
+
+        <div className="card">
+          <h2>Signal Decay</h2>
+          <p>
+            Signal Decay is an offline-first read-later vault where saved links and notes slowly fade unless revisited. You can view our policies regarding data usage and privacy.
+          </p>
+          <Link to="/signal-decay/privacy-policy" className="btn-primary">
+            View Privacy Policy
+          </Link>
+        </div>
       </main>
     </div>
   );

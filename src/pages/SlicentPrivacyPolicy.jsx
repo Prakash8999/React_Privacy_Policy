@@ -11,7 +11,7 @@ const SlicentPrivacyPolicy = () => {
 
   return (
     <div className="privacy-container">
-      
+
       <div className="privacy-content">
         <h1 className="title-bordered">Privacy Policy for Slicent</h1>
         <p><strong>Effective Date:</strong> <span className="date-text">{currentDate}</span></p>
@@ -59,9 +59,9 @@ const SlicentPrivacyPolicy = () => {
         </section>
 
         <div className="contact-info glass-panel">
-            <h2>7. Contact Us</h2>
-            <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
-            <p><strong>Email: </strong><a href="mailto:prakash.jha9797@gmail.com" className="email-link">prakash.jha9797@gmail.com</a></p>
+          <h2>7. Contact Us</h2>
+          <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
+          <p><strong>Email: </strong><a href="mailto:prakashjha123yt@gmail.com" className="email-link">prakashjha123yt@gmail.com</a></p>
         </div>
       </div>
     </div>
