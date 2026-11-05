@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
@@ -36,6 +35,16 @@ const Dashboard = () => {
             Signal Decay is an offline-first read-later vault where saved links and notes slowly fade unless revisited. You can view our policies regarding data usage and privacy.
           </p>
           <Link to="/signal-decay/privacy-policy" className="btn-primary">
+            View Privacy Policy
+          </Link>
+        </div>
+
+        <div className="card">
+          <h2>Scanrow</h2>
+          <p>
+            Scanrow is an offline desktop document extraction application for invoices, receipts, and bills. You can view our policies regarding data usage and privacy.
+          </p>
+          <Link to="/scanrow/privacy-policy" className="btn-primary">
             View Privacy Policy
           </Link>
         </div>
