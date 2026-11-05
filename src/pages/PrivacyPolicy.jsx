@@ -1,20 +1,17 @@
-import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const PrivacyPolicy = () => {
-  const [currentDate, setCurrentDate] = useState('');
-
-  useEffect(() => {
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    setCurrentDate(new Date().toLocaleDateString('en-US', options));
-  }, []);
-
   return (
     <div className="privacy-container">
+      <div className="privacy-header">
+        <Link to="/" className="back-link">
+          ← Back to Dashboard
+        </Link>
+      </div>
 
       <div className="privacy-content">
         <h1 className="title-bordered">Privacy Policy</h1>
-        <p><strong>Effective Date:</strong> <span className="date-text">{currentDate}</span></p>
+        <p><strong>Effective Date:</strong> <span className="date-text">October 1, 2026</span></p>
 
         <p>Thank you for choosing to use our <strong>204Eight</strong> application ("App"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains what information we collect, how we use it, and what rights you have in relation to it.</p>
 

@@ -1,14 +1,6 @@
-import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const ScanrowPrivacyPolicy = () => {
-  const [currentDate, setCurrentDate] = useState('');
-
-  useEffect(() => {
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    setCurrentDate(new Date().toLocaleDateString('en-US', options));
-  }, []);
-
   return (
     <div className="privacy-container">
       <div className="privacy-header">
@@ -19,7 +11,7 @@ const ScanrowPrivacyPolicy = () => {
 
       <div className="privacy-content">
         <h1 className="title-bordered">Privacy Policy for Scanrow</h1>
-        <p><strong>Effective Date:</strong> <span className="date-text">{currentDate}</span></p>
+        <p><strong>Effective Date:</strong> <span className="date-text">November 5, 2026</span></p>
 
         <section className="policy-section">
           <h2>1. Introduction</h2>
