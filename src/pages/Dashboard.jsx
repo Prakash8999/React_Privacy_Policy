@@ -48,6 +48,16 @@ const Dashboard = () => {
             View Privacy Policy
           </Link>
         </div>
+
+        <div className="card">
+          <h2>DialQ Desk</h2>
+          <p>
+            DialQ Desk is an enterprise desktop dashboard for lead queue distribution, team management, local OCR document extraction, and call analytics. You can view our policies regarding data usage and privacy.
+          </p>
+          <Link to="/dialq-desk/privacy-policy" className="btn-primary">
+            View Privacy Policy
+          </Link>
+        </div>
       </main>
     </div>
   );
