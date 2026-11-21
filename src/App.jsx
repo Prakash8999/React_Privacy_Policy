@@ -5,6 +5,7 @@ import SlicentPrivacyPolicy from './pages/SlicentPrivacyPolicy';
 import SignalDecayPrivacyPolicy from './pages/SignalDecayPrivacyPolicy';
 import ScanrowPrivacyPolicy from './pages/ScanrowPrivacyPolicy';
 import DialQDeskPrivacyPolicy from './pages/DialQDeskPrivacyPolicy';
+import TorquePrivacyPolicy from './pages/TorquePrivacyPolicy';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/signal-decay/privacy-policy" element={<SignalDecayPrivacyPolicy />} />
         <Route path="/scanrow/privacy-policy" element={<ScanrowPrivacyPolicy />} />
         <Route path="/dialq-desk/privacy-policy" element={<DialQDeskPrivacyPolicy />} />
+        <Route path="/torque/privacy-policy" element={<TorquePrivacyPolicy />} />
       </Routes>
     </Router>
   );

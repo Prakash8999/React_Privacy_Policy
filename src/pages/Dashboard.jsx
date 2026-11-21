@@ -58,6 +58,16 @@ const Dashboard = () => {
             View Privacy Policy
           </Link>
         </div>
+
+        <div className="card">
+          <h2>Torque</h2>
+          <p>
+            Torque is an offline all-in-one tools utility suite for Android featuring on-device video and audio engines, local ML vision, document scanning, and an AES-256 encrypted vault.
+          </p>
+          <Link to="/torque/privacy-policy" className="btn-primary">
+            View Privacy Policy
+          </Link>
+        </div>
       </main>
     </div>
   );

@@ -825,3 +825,62 @@ li {
   margin-top: 2.5rem;
   opacity: 0.85;
 }
+
+/* Torque (All-in-One Tools) Styles - Strictly Emerald / Teal / Amber Palette */
+.torque-container {
+  max-width: 960px;
+}
+
+.torque-badge {
+  background: rgba(16, 185, 129, 0.12);
+  color: #065f46;
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.torque-badge-icon {
+  color: #10b981;
+}
+
+.torque-title {
+  border-bottom: 2px solid #10b981;
+}
+
+.torque-meta-grid {
+  border-color: rgba(16, 185, 129, 0.2);
+}
+
+.torque-copy-btn:hover {
+  background: rgba(16, 185, 129, 0.15);
+  border-color: #10b981;
+  color: #065f46;
+}
+
+.torque-toc-box {
+  border-color: rgba(13, 148, 136, 0.2);
+}
+
+.torque-emerald-text {
+  color: #0d9488;
+}
+
+.torque-box {
+  background: rgba(16, 185, 129, 0.08);
+  border-color: rgba(16, 185, 129, 0.25);
+}
+
+.torque-box .note-label {
+  color: #065f46;
+}
+
+.torque-contact-panel {
+  border-color: rgba(16, 185, 129, 0.25);
+}
+
+.torque-email-link {
+  color: #0d9488;
+}
+
+.torque-email-link:hover {
+  color: #065f46;
+}
+
