@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const SlicentPrivacyPolicy = () => {
+
   return (
     <div className="privacy-container">
       <div className="privacy-header">
